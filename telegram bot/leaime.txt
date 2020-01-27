@@ -1,0 +1,22 @@
+Este projeto segue a licença tipo GNU ou GPL
+Faça o que quiser, contando que dê o devido crédito a André Balparda no 101 Club
+
+passos para instalação
+1 - baixe os arquivos.
+2 - tenha uma hospedagem que execute PHP 7 ou +
+3 - Tenha acesso a uma bases de dados MySql.
+4 - Crie uma base de dados MySql nova para este projeto
+5 - execute o arquivo tabelas.sql dentro da base criada acima para criar as tabelas.
+6 - configure seu bot de telegram no bot father e armazene a API KEY
+7 - configure as primeiras linhas do programa bot.php com a API KEY fornecida pelo botFather e com os acessos da base MySql
+8 - configure o msgs.json com as mensagens para cada situação de entrada, assista ao vídeo de explicação.
+9 - faça upload do bot.php e do msgs.json para seu servidor e pasta adequados (lembre-se este deve ter SSL ligado e configurado)
+10 - vincule seu php ao seu bot do telegram:
+  https://api.telegram.org/bot<SUA API KEY>/setwebhook?url=<URL do seu PHP>
+  troque as <SUA API KEY> e <URL do seu PHP> com os valor corretos.
+  para desvincular use
+  https://api.telegram.org/bot<SUA API KEY>/deleteWebhook?url=<URL do seu PHP>
+  mais comandos em https://core.telegram.org/bots/api
+
+
+  
